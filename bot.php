@@ -7,7 +7,7 @@ if (!isset($_REQUEST)) {
 //Строка для подтверждения адреса сервера из настроек Callback API 
 
 //Ключ доступа сообщества 
-$token='3e233feb0e841a96be8b6f153ec7f64e67c7e832d141c35b539e0282adbf2d1c4fbb9aebb741eda0b8d89';
+$token='';
 // VK API как сделать бот в вк готовый php скрипт бот вконтакте бот сообщений группы вконтакте
 $data = json_decode(file_get_contents('php://input'));
 switch ($data->type){
